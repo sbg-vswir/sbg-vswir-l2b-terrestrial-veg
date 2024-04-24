@@ -1,4 +1,4 @@
-# SBG VSWIR Terrestrial Vegetation Products - Algorithm Theoretical Basis Document (ATBD)**
+# SBG VSWIR Terrestrial Vegetation Equivalent Water Thickness Product - Algorithm Theoretical Basis Document (ATBD)**
 
 *K.D. Chadwick**<sup>1</sup>
 
@@ -22,7 +22,7 @@ Corresponding author: K. Dana Chadwick (dana.chadwick@jpl.nasa.gov)
 
 ## 1 Version Description
 
-This is Version 1.0 of the SBG VSWIR terrestrial vegetation algorithms.
+This is Version 1.0 of the SBG VSWIR terrestrial vegetation algorithm equivalent water thickness, sometimes referred to as canopy water content. 
 
 ## 2 Introduction
 
