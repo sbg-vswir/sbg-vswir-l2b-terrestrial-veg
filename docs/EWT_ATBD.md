@@ -32,13 +32,9 @@ This is Version 1.0 of the SBG VSWIR terrestrial vegetation algorithm equivalent
 
 Following on recommendations by the National Academies of Science, Engineering and Medicine in their 2018 Decadal Survey on Earth Sciences, the National Aeronautics and Space Administration (NASA) selected the Surface Biology and Geology (SBG) mission for implementation as part of  its Earth System Observatory (ESO).  The ESO is a series of missions that will launch in the late 2020s and early 2030s to observe different aspects of the Earth System.  SBG in particular aims to measure properties of the Earth’s surface composition and ecology.  It is comprised of two platforms: a wide-swath thermal infrared instrument (TIR) on a free-flying spacecraft in a polar orbit with an afternoon equatorial crossing time; and a separate spacecraft carrying a wide-swath solar reflectance imaging spectrometer operating in the Visible Shortwave Infrared (VSWIR), with a morning equatorial crossing time.
 
-
-<<<<<<< HEAD
-This document focuses on the second platform, SBG-VSWIR.  SBG-VSWIR will measure the solar reflected range at approximately 380-2500 nm at 10 nm spectral sampling, over a 180 km swath with 30 m spatial sampling.  This measurement enables repeat coverage of any location on Earth every 16 days.  The visible-shortwave infrared range is sensitive to diverse physical processes in the Earth’s surface and atmosphere (Cawse-Nicholson 2021). It provides Earth-system-scale measurements relevant to: terrestrial vegetation and biodiversity, including plant functinoal traits and canopy water content.  
-=======
 This Algorithm Theoretical Basis Document describes the algorithm used for terrestrial vegetation composition, function, and structure estimation step.    
 ![Nominal CWT Calc](fig/nominal_ewt.PNG)
->>>>>>> 44a38d72258f45bb4d8f953018a361960431656c
+
 
 This Algorithm Theoretical Basis Document describes the algorithm used for terrestrial vegetation equivilent water thickness. Equivalent Water Thickness (EWT) is the predicted thickness or absorption path length in centimeters (cm) of water that would be required to yield the observed spectra. For vegetation, this is equivalent to canopy water content (CWC) in g/cm^2, since one cm^3 of water has a mass of 1g.
 
