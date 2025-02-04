@@ -80,8 +80,10 @@ The input variables for terrestrial vegetation PLSR products are: isofit correct
 Output variables for foliar nitrogen, leaf mass per area, and leaf water content are generated for each pixel in the input data with a fractional cover >= 0.XX photosynthetic vegetation. For all other pixels, the output is set to NaN. Units are as follows: foliar nitrogen (g N/g of dry foliar mass), leaf mass per area (g dry mass/m^2 of leaf area), and leaf water content (g water/g fresh foliage). Uncertianties are also generated for each output variable in the same units as the output variable.
 
 ## 5 Algorithm Usage Constraints
+The algorithms will be developed with the datasets avaliable to the team. There are not currently any plans for SBG VSWIR to fund in situ data collection activities. Therefore the algorithms will be most appropriate for interpretation within the regions where there are training data available. This ATBD will contain a map and list of the regions that have training data for individuals to assess the likely reliability in their region of interest. The SBG VSWIR terrestrial vegetation team is working to compile a series of protocols for the community to use in support of improving the VSWIR terrestial vegetation algorithms. The team anticipates working with the community to gather the largest possible training dataset and will continue to update the PLSR coefficients as new data become available.
 
 ## 6 Performance Assessment
+The terrestrial vegetation algorithms are part of the demonstration product suite that will be provided by SBG VSWIR. These products will be spot verified as possible. The team will do the best performance assessment possible with the data available.
 
 ### 6.1 Validation Methods
 
@@ -92,10 +94,13 @@ Output variables for foliar nitrogen, leaf mass per area, and leaf water content
 ## 7 Algorithm Implementation
 
 ### 7.1 Algorithm Availability
+All algorithms will be avaliable through the SBG-VSWIR github repository. 
 
 ### 7.2 Input Data Access
+All input data will be avaliable on the LP DAAC.
 
 ### 7.3 Output Data Access
+All output data will be avaliable on the LP DAAC.
 
 ### 7.4 Important Related URLs
 
