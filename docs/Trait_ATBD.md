@@ -7,6 +7,9 @@
 Corresponding author: K. Dana Chadwick (dana.chadwick@jpl.nasa.gov)
 
 **Key Points:**
+1. Please note that this ATBD will be updated on an ongoing basis as the SBG VSWIR project progresses. This is intended to be a place where the community can find the most up-to-date information on the current plans for algorithm development and offer contributions. 
+2. The canopy surface trait demonstration products are baselined to be generated with a partial least squares regression (PLSR) framework. The team is actively consdiering other algorithm options and welcomes contributions from the community. 
+3. The products will include foliar nitrogen, leaf mass per area, and leaf water content.
 
 **Version:** 1.0
 
@@ -19,6 +22,11 @@ Corresponding author: K. Dana Chadwick (dana.chadwick@jpl.nasa.gov)
 ## Plain Language Summary
 
 ### Keywords: 
+Vegetation Traits,
+Canopy Nitrogen,
+Leaf Mass Per Area,
+Leaf Water Content
+
 
 ## 1 Version Description
 
@@ -57,10 +65,14 @@ This pipeline is the expected framework as of the time of writing, but is subjec
 ### 4.1 Scientific Theory
 These algorithms are intended to estimate the trait values of the green vegetation in the plant canopies that are within a pixel. While some pixels will be comprised of 100% photosynthetic vegetation (PV), many pixels will be mixed with other surface types. The PLSR algorithm is designed to estimate the trait values for the PV fraction of the pixel. The PLSR algorithm is trained on a large dataset of field measurements of the traits of interest and the corresponding reflectance spectra. The algorithm is trained to find the linear combination of the reflectance spectra that best predicts the trait values. The algorithm is then applied to the reflectance spectra of the pixels in the VSWIR image to estimate the trait values. These algorithms have been developed on a one off basis to date within specific study areas across different ecosystems, with different sensors and processing pipelines, and at different ground sampling distance (GSD). The SBG VSWIR project will have to aggregate appropriate datasets from existing studies and develop a new set of algorithms that can be applied to the SBG VSWIR data.
 
-There are a variety of challenges to overcome in order to develop these algorithms, which the terrestrial vegetation algorithm working group is working to address. As of Q1 2025 the working group is focused on the following challenges and we will update this document as the project progresses: 
+There are a variety of challenges to overcome in order to develop these algorithms, which the terrestrial vegetation algorithm working group is working to address. As of Q1 2025 the working group is focused on the following challenges and we will update this document as the project progresses.  
 
 - **Bringing together existing field and airborne datasets.** We're developing a database of field and airborne datasets that can be used to train and validate the algorithms. This includes datasets from the National Aeronautics and Space Administration (NASA) Airborne Visible/Infrared Imaging Spectrometer (AVIRIS) program supported activities, including and the National Ecological Observatory Network (NEON). A large challenge in this aggregation effort is that different platforms utilize different atmospheric correction and reflectance retrieval algorithms, which can lead to differences in the reflectance spectra. We are looking to start from radiance data rather than reflectance data to avoid these issues. However, this requires a good deal of work to re-extract data from flightlines and processing pixel level radiance to consistent reflectance data. 
-- **Determining which pixels will have the PLSR algorithms applied.** The PLSR algorithms are designed to estimate the trait values for the PV fraction of the pixel. The algorithms will only be applied to pixels that have a PV fraction above a certain threshold. The working group is currently working on determining the appropriate threshold for SBG VSWIR data utilizing data from the SHIFT project.
+
+- **Strategies for trait value aggregation from in situ collections to pixel resolution.** There are a variety of ways that a canopy trait value for a particular pixel can be determined from in situ data. There are also questions about if the goal is to estimate the value of PV traits per pixel, ignoring the non-PV fraction, or if the goal is to estimate the value of PV traits for the area of the pixel, setting non-PV cover to a value of zero. We are baselining the former scenario. The diagram below highlights the differences in aggregation approaches that could be utilized. ![img.png](figs/PlotLevelAggregationConsiderations.png) **Figure 3.** _Outline of various aggregation methods for canopy foliar traits._  
+ 
+- **Determining which pixels will have the PLSR algorithms applied.** The PLSR algorithms are designed to estimate the trait values for the PV fraction of the pixel. The algorithms will only be applied to pixels that have a PV fraction above a certain threshold. The working group is currently working on determining the appropriate threshold for SBG VSWIR data utilizing data from the SHIFT project. There is a placeholder in section 4.4 for the threshold value. 
+
 - **Scaling from airborne to spaceborne.** The algorithms have been developed on airborne data, which often has a much higher spatial resolution than the planned GSD of SBG VSWIR. The working group is assessing methods for scaling trait models to coarser GSDs by leveraging EMIT as a precursor. This scaling may include developing a method to aggregate the airborne data to the SBG VSWIR pixel size and utilizing those data to train the coarser resolution PLSR algorithms.  
 
 #### 4.1.2 Scientific theory assumptions
