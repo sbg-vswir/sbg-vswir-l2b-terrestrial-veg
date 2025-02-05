@@ -99,6 +99,10 @@ $$
 
 
 [**ρ(s,λ) = (a + bλ) e^{(-d_w a_{w,λ} - d_i a_{i,λ})}**](../algorithms/EWT.py#beer_lambert_model)
+[**ρ(s,λ) = (a + bλ) e^{(-d_w a_{w,λ} - d_i a_{i,λ})}**](../algorithms/EWT.py#L32)
+[**ρ(s,λ) = (a + bλ) e^{(-d_w a_{w,λ} - d_i a_{i,λ})}**](https://github.com/cade9/sbg-vswir-l2b-terrestrial-veg/blob/eefd43b3a69fa9337631cf45155027be3e3f27f7/algorithms/EWT.py)
+
+[![Equation](https://latex.codecogs.com/png.latex?\rho_{(s,\lambda)}%20=%20(a%20+%20b\lambda)%20e^{(-d_w%20a_{w,\lambda}%20-%20d_i%20a_{i,\lambda}%)})](https://github.com/cade9/sbg-vswir-l2b-terrestrial-veg/blob/eefd43b3a69fa9337631cf45155027be3e3f27f7/algorithms/EWT.py)
 
 <a href="../algorithms/EWT.py#beer_lambert_model">
 <p>$$ \rho_{(s,\lambda)} = (a+b\lambda) e^{(-d_wa_{w,\lambda} - d_ia_{i,\lambda} )} $$</p>
