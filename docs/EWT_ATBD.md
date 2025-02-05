@@ -87,12 +87,23 @@ Where:
 - $d_w$ and $d_i$ are the liquid water and ice path lengths, respectively. 
 And in the case of canopy water content we are solving for $d_w$
 
+Click on the equation below to see its implementation in the algorithm:
+
+[Function Implementation](../algorithms/EWT.py#beer_lambert_model)
 
 To calculate the absorption coefficients  $(\alpha(\lambda))$ , we use the equation:
 
 $$
 \alpha(\lambda) = \frac{4\pi k(\lambda)}{\lambda}
 $$
+
+
+[**ρ(s,λ) = (a + bλ) e^{(-d_w a_{w,λ} - d_i a_{i,λ})}**](../algorithms/EWT.py#beer_lambert_model)
+
+<a href="../algorithms/EWT.py#beer_lambert_model">
+<p>$$ \rho_{(s,\lambda)} = (a+b\lambda) e^{(-d_wa_{w,\lambda} - d_ia_{i,\lambda} )} $$</p>
+</a>
+
 
 Where $k(\lambda)$ is the imaginary part of the refractive index of water at a given wavelength. The reflectance of the canopy $\rho(\lambda)$ is modeled as:
 and to obtain $k(\lambda)$, we use the lab measurements from  table ___link table_ from Kedenburg et al. (2012)
