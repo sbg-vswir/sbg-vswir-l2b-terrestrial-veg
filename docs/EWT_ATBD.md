@@ -100,15 +100,19 @@ $$
 
 [**ρ(s,λ) = (a + bλ) e^{(-d_w a_{w,λ} - d_i a_{i,λ})}**](../algorithms/EWT.py#beer_lambert_model)
 [**ρ(s,λ) = (a + bλ) e^{(-d_w a_{w,λ} - d_i a_{i,λ})}**](../algorithms/EWT.py#L32)
-[**ρ(s,λ) = (a + bλ) e^{(-d_w a_{w,λ} - d_i a_{i,λ})}**](https://github.com/cade9/sbg-vswir-l2b-terrestrial-veg/blob/eefd43b3a69fa9337631cf45155027be3e3f27f7/algorithms/EWT.py)
+[**ρ(s,λ) = (a + bλ) e^{(-d_w a_{w,λ} - d_i a_{i,λ})}**](../algorithms/EWT.py#L32-L50)
+
+
+Test the specific spot link 
+
 
 [![Equation](https://latex.codecogs.com/png.latex?\rho_{(s,\lambda)}%20=%20(a%20+%20b\lambda)%20e^{(-d_w%20a_{w,\lambda}%20-%20d_i%20a_{i,\lambda}%)})](https://github.com/cade9/sbg-vswir-l2b-terrestrial-veg/blob/eefd43b3a69fa9337631cf45155027be3e3f27f7/algorithms/EWT.py)
 
-<a href="../algorithms/EWT.py#beer_lambert_model">
-<p>$$ \rho_{(s,\lambda)} = (a+b\lambda) e^{(-d_wa_{w,\lambda} - d_ia_{i,\lambda} )} $$</p>
-</a>
 
 
+[equation1](https://github.com/cade9/sbg-vswir-l2b-terrestrial-veg/blob/2841544f8cd5fe338d7ed63585bcb1990bfaeb5d/algorithms/EWT.py)
+
+[equation2]https://github.com/cade9/sbg-vswir-l2b-terrestrial-veg/blame/2841544f8cd5fe338d7ed63585bcb1990bfaeb5d/algorithms/EWT.py#L32-L50
 Where $k(\lambda)$ is the imaginary part of the refractive index of water at a given wavelength. The reflectance of the canopy $\rho(\lambda)$ is modeled as:
 and to obtain $k(\lambda)$, we use the lab measurements from  table ___link table_ from Kedenburg et al. (2012)
 for liquid water.
