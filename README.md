@@ -10,9 +10,10 @@ NASA's Surface Biology and Geology (SBG) Mission Visible to Shortwave Infrared (
     4. Leaf Water Content (LWC) (Units: %) - leaf level water as % of fresh leaf weight 
 
 <figure>
-    <img src="fig/readme_veg_diagram.jpeg" alt="Figure 1: Proposed demonstration products for SBG" width="800" height = "400">
-    <figcaption>Figure 1: Proposed terrestrial vegetation demonstration products for SBG </figcaption>
+    <img src="fig/readme_veg_diagram.jpeg" alt="Figure 1: Proposed demonstration products for SBG" width="800" height = "350">
+    <figcaption style="font-style: italic; margin-bottom: 20px;">Figure 1: Proposed terrestrial vegetation demonstration products for SBG </figcaption>
 </figure>
+
 
 
 CWC will be calculated using the Bohn et al, 2020 three phases of water approach. Currently, the the team is focused on using a partial least squares regression (PLSR) framework for trait estimates of LMA, Foliar N, and LWC; however, this algorithm approach still requires further research and testing at the plot, airborne, and space born scales. 
@@ -31,7 +32,7 @@ PLANTS is a PostGIS ER database deployed on Amazon Relational Database Services 
 
 <figure>
     <img src="fig/PLANTS_database.png" alt="Figure 2: Plants database" width="500">
-    <figcaption>Figure 2: SBG Plant Traits and Spectral (PLANTS) database (Figure 2)</figcaption>
+    <figcaption style="font-style: italic; margin-bottom: 20px;">Figure 2: SBG Plant Traits and Spectral (PLANTS) database (Figure 2)</figcaption>
 </figure> 
 
 We do not have release date scheduled yet, but watch our project board for progress. 
