@@ -10,7 +10,7 @@ NASA's Surface Biology and Geology (SBG) Mission Visible to Shortwave Infrared (
     4. Leaf Water Content (LWC) (Units: %) - leaf level water as % of fresh leaf weight 
 
 <figure>
-    <img src="fig/readme_veg_diagram.jpeg" alt="Figure 1: Proposed demonstration products for SBG" width="10in" height = "4in">
+    <img src="fig/readme_veg_diagram.jpeg" alt="Figure 1: Proposed demonstration products for SBG" width="800" height = "400">
     <figcaption>Figure 1: Proposed terrestrial vegetation demonstration products for SBG </figcaption>
 </figure>
 
