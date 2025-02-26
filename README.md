@@ -10,7 +10,7 @@ NASA's Surface Biology and Geology (SBG) Mission Visible to Shortwave Infrared (
     4. Leaf Water Content (LWC) (Units: %) - leaf level water as % of fresh leaf weight 
 
 <figure>
-    <img src="fig/readme_veg_diagram.jpeg" alt="Figure 1: Proposed demonstration products for SBG" width="500">
+    <img src="fig/readme_veg_diagram.jpeg" alt="Figure 1: Proposed demonstration products for SBG" width="10in" height = "4in">
     <figcaption>Figure 1: Proposed terrestrial vegetation demonstration products for SBG </figcaption>
 </figure>
 
@@ -30,7 +30,7 @@ To streamline the community's ability to develop and test terrestrial vegetation
 PLANTS is a PostGIS ER database deployed on Amazon Relational Database Services (AWS-RDS). It extends PostgreSQL's capabilities by supporting the storage, indexing, and querying of spatial data. The SQL-based ER architecture is flexible and can be redesigned under a version control system to incorporate other existing dataset structures from the SBG community and partners (e.g., SHIFT, EnSpec, NEON, Your data!) on an open platform that ensures data is findable, accessible, interoperable, and reusable. 
 
 <figure>
-    <img src="fig/Plants_database.png" alt="Figure 2: Plants database" width="500">
+    <img src="fig/PLANTS_database.png" alt="Figure 2: Plants database" width="500">
     <figcaption>Figure 2: SBG Plant Traits and Spectral (PLANTS) database (Figure 2)</figcaption>
 </figure> 
 
