@@ -11,7 +11,7 @@ NASA's Surface Biology and Geology (SBG) Mission Visible to Shortwave Infrared (
 
 <figure>
     <img src="fig/readme_veg_diagram.jpeg" alt="Figure 1: Proposed demonstration products for SBG" width="800" height = "350">
-    <figcaption style="font-style: italic; margin-bottom: 20px;">Figure 1: Proposed terrestrial vegetation demonstration products for SBG </figcaption>
+    <figcaption style="font-style: italic; margin-bottom: 20px;">Figure 1: Proposed SBG terrestrial vegetation demonstration products. </figcaption>
 </figure>
 
 
@@ -32,14 +32,14 @@ PLANTS is a PostGIS ER database deployed on Amazon Relational Database Services 
 
 <figure>
     <img src="fig/PLANTS_database.png" alt="Figure 2: Plants database" width="500">
-    <figcaption style="font-style: italic; margin-bottom: 20px;">Figure 2: SBG Plant Traits and Spectral (PLANTS) database (Figure 2)</figcaption>
+    <figcaption style="font-style: italic; margin-bottom: 20px;">Figure 2: SBG Plant Traits and Spectral (PLANTS) database. </figcaption>
 </figure> 
 
 We do not have release date scheduled yet, but watch our project board for progress. 
 
 
 References:
-Bohn, N., Guanter, L., Kuester, T., Preusker, R., & Segl, K. (2020). Coupled retrieval of the three phases of water from spaceborne imaging spectroscopy measurements. Remote Sensing of Environment, 242, 111708.
+   * Bohn, N., Guanter, L., Kuester, T., Preusker, R., & Segl, K. (2020). Coupled retrieval of the three phases of water from spaceborne imaging spectroscopy measurements. Remote Sensing of Environment, 242, 111708.
 
 
 
